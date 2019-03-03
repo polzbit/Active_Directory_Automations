@@ -33,8 +33,8 @@ $scriptPath = Split-Path -parent $script
 # -------------------------------------
 $newName = "CyberMainDC"
 $newForest = "$global:Forest.$global:ForestEnd"
-$newIp = "192.168.1.11"
-$defualtGate = "192.168.1.252"
+$newIp = "ENTER IP HERE"
+$defaultGate = "ENTER GATEWAY HERE"
 $cardName = "Ethernet0"
 $adapter = Get-NetAdapter | ? {$_.Status -eq "up"}
 
