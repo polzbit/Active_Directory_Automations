@@ -28,8 +28,8 @@ $scriptPath = Split-Path -parent $script
 # -------------------------------------
 $newName = "FS-SRV"
 $myForest = "$global:Forest.$global:ForestEnd"
-$newIp = "192.168.1.13"
-$defualtGate = "192.168.1.11"
+$newIp = "ENTER IP HERE"
+$defualtGate = "ENTER GATEWAY HERE"
 $cardName = "Ethernet0"
 $password = (ConvertTo-SecureString -AsPlainText -Force -String "Admin12345")  # set DSRM password
 $username = "$global:Forest\Administrator" 
