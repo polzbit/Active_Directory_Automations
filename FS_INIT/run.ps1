@@ -10,10 +10,6 @@ Description:
             d. Reboot & Continue to Step 2
         Step 2:
             a. Install FSRM Serivces on the server
-            
-Date: 15/01/19
-Created By Bar Polyak For The Technion CSSI Course
-Source for Reboot & Continue process: https://www.codeproject.com/Articles/223002/Reboot-and-Resume-PowerShell-Script
 #######################################################################################################################>
 
 param($Step="A")
