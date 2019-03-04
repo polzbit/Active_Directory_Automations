@@ -6,9 +6,6 @@ Description:
     - Utility functions to help Setup functions
     - Setup functions for reboot & continue
     - Function to create OU, groups & users from CSV file and link user to group
-Date: 15/01/19
-Created By Bar Polyak For The Technion CSSI Course
-Source for Reboot & Continue process: https://www.codeproject.com/Articles/223002/Reboot-and-Resume-PowerShell-Script
 #######################################################################################################################>
 
 # -------------------------------------
