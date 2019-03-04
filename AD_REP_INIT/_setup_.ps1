@@ -5,8 +5,6 @@ Description:
     - Function globals for registry
     - Utility functions to help Setup functions
     - Setup functions for reboot & continue
-Date: 15/01/19
-Created By Bar Polyak For The Technion CSSI Course
 Source for Reboot & Continue process: https://www.codeproject.com/Articles/223002/Reboot-and-Resume-PowerShell-Script
 #######################################################################################################################>
 
