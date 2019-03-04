@@ -15,7 +15,6 @@ Description:
         Step 3:
             a. Install DHCP Services
             b. Configure DHCP
-Source for Reboot & Continue process: https://www.codeproject.com/Articles/223002/Reboot-and-Resume-PowerShell-Script
 #######################################################################################################################>
 
 param($Step="A")
