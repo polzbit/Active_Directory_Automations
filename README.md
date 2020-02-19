@@ -3,7 +3,7 @@
 Powershell automation scripts to setup the following servers in a Forest:
 - AD_INIT: first Domain Controller
 - AD_REP_INIT: Domain Controller Replication 
-- FS_INIT:File Server.
+- FS_INIT:File Server
 
 ## Getting Started
 
