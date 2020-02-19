@@ -8,16 +8,17 @@ Powershell automation scripts to setup the following servers in a Forest:
 ## Getting Started
 
 each script works in 3 steps:
-1.
+
+Step 1:
 * Turning off Windows Firewall
 * Static IP Address Configuration
 * Change computer name to logical name 
 * Reboot & Continue to Step 2
-2.
+Step 2:
 * Install  Serivces on server
 * Promote server process for new forest 
 * Reboot & Continue to Step 3
-3.
+Step 3:
 AD_INIT:
 * Create new OUs from CSV file 
 * Create Users & Groups from CSV file 
