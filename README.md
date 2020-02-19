@@ -9,27 +9,25 @@ Powershell automation scripts to setup the following servers in a Forest:
 
 each script works in 3 steps:
         Step 1: 
-            a. Turning off Windows Firewall
-            b. Static IP Address Configuration
-            c. Change computer name to logical name 
-            d. Reboot & Continue to Step 2
+            1. Turning off Windows Firewall
+            2. Static IP Address Configuration
+            3. Change computer name to logical name 
+            4. Reboot & Continue to Step 2
         Step 2:
-            a. Install  Serivces on server
-            b. Promote server process for new forest 
-            c. Reboot & Continue to Step 3
+            1. Install  Serivces on server
+            2. Promote server process for new forest 
+            3. Reboot & Continue to Step 3
         Step 3:
             AD_INIT:
-              a. Create new OUs from CSV file 
-              b. Create Users & Groups from CSV file 
-              c. link user to group 
-              d. Init GPO policies 
-              
+              1. Create new OUs from CSV file 
+              2. Create Users & Groups from CSV file 
+              3. link user to group 
+              4. Init GPO policies 
             AD_REP_INIT:
-              a. Install DHCP Services
-              b. Configure DHCP
-              
+              1. Install DHCP Services
+              2. Configure DHCP
             FS_INIT:
-              a. Install FSRM Serivces
+              1. Install FSRM Serivces
             
 ## Deployment
 
