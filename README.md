@@ -14,21 +14,23 @@ Step 1:
 * Static IP Address Configuration
 * Change computer name to logical name 
 * Reboot & Continue to Step 2
+
 Step 2:
 * Install  Serivces on server
 * Promote server process for new forest 
 * Reboot & Continue to Step 3
+
 Step 3:
-AD_INIT:
-* Create new OUs from CSV file 
-* Create Users & Groups from CSV file 
-* link user to group 
-* Init GPO policies 
-AD_REP_INIT:
-* Install DHCP Services
-* Configure DHCP
-FS_INIT:
-* Install FSRM Serivces
+            AD_INIT:
+            * Create new OUs from CSV file 
+            * Create Users & Groups from CSV file 
+            * link user to group 
+            * Init GPO policies 
+            AD_REP_INIT:
+            * Install DHCP Services
+            * Configure DHCP
+            FS_INIT:
+            * Install FSRM Serivces
             
 ## Deployment
 
