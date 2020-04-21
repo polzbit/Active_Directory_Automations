@@ -38,9 +38,8 @@ FS_INIT:
 ## Deployment
 
 there are a few veriables that needs changes before running the scripts.
-in `_setup_.ps1` it's important to give domain name value to variable ```$global:Forest``` 
-end of domain to variable ```$global:ForestEnd``` and password to variable ```$global:defaultPassword```.
-the variable ```$csvPath``` contain the path to users csv file.
+in `_setup_.ps1` it's important to give domain name value to ```$global:Forest``` and password to variable ```$global:defaultPassword```.
+ ```$csvPath``` contain the path to users csv file.
 
 in `run.ps1` the variable ```$newName``` will hold the new DC name.
 ```$newIp``` will hold the new static ip address.
